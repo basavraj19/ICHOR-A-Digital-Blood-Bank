@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SignupScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/signuplogo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/adduser"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Sign up"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/main"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/fullname"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+        android:drawablePadding="20dp"
+        android:hint="Phone No"
+        android:inputType="phone"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/phoneno"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:drawablePadding="20dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/bloodgp"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/age"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_bloodtype_24"
+        android:drawablePadding="20dp"
+        android:hint="Blood Group"
+        android:inputType="text"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/bloodgp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="Gender"
+        android:inputType="text"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password_1"
+        android:layout_width="370dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/gender"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#30e1e6e5"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:backgroundTint="@color/design_default_color_background"
+            android:onClick="status"
+            android:text="Send OTP"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

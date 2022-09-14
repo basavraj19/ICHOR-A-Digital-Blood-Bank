@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "799875959526",
+    "project_id": "ichor-67eea",
+    "storage_bucket": "ichor-67eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799875959526:android:74dd9d4bf40fd87a9c0927",
+        "android_client_info": {
+          "package_name": "com.example.ichor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799875959526-v197c15f4n5veui4tou1qns4fp4pdorl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0iku_4FTevixj-vpy8squKlGsXG7X-oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799875959526-v197c15f4n5veui4tou1qns4fp4pdorl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
